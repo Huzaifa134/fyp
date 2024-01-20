@@ -124,6 +124,7 @@ const Confirm = () => {
                     <Success />
                     <h3>{t('Success !')}</h3>
                     <p className="text-muted mt-2">
+                        
                         {t('A email has been send to ')}
                         <span className="fw-medium">{t('youremail@domain.com')}</span>
                         {t(

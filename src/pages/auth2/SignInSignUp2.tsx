@@ -123,7 +123,7 @@ const SignInSignUp2 = () => {
                                 onSubmit={onSubmit}
                                 resolver={loginSchema}
                                 defaultValues={{
-                                    loginemail: 'minton@coderthemes.com',
+                                    loginemail: 'QSP_FYP_PROJECT@FYP.com',
                                     loginpassword: 'test',
                                 }}
                             >

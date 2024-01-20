@@ -167,7 +167,7 @@ const rootRoute: RoutesProps = {
 
 // dashboards
 const dashboardRoutes: RoutesProps = {
-    path: '/dashboard',
+    path: '/tracking',
     name: 'Dashboards',
     icon: 'airplay',
     header: 'Navigation',
@@ -185,8 +185,8 @@ const dashboardRoutes: RoutesProps = {
             route: PrivateRoute,
         },
         {
-            path: '/dashboard/analytics',
-            name: 'Analytics',
+            path: '/tracking/employees_tracking',
+            name: 'Employees Tracking',
             component: AnalyticsDashboard,
             route: PrivateRoute,
         },

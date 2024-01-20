@@ -50,10 +50,7 @@ const AuthLayout = ({ helpText, bottomLinks, children, isCombineForm }: AccountL
             </div>
 
             <footer className="footer footer-alt">
-                {new Date().getFullYear()} &copy; Minton theme by{' '}
-                <Link to="#" className="text-dark">
-                    Coderthemes
-                </Link>
+                {new Date().getFullYear()} &copy; QSP theme by RHATech    
             </footer>
         </>
     );

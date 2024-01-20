@@ -91,10 +91,11 @@ const SignInSignUp = () => {
                                 onSubmit={onSubmit}
                                 resolver={loginSchema}
                                 defaultValues={{
-                                    email: 'minton@coderthemes.com',
+                                    email: 'QSP_FYP_PROJECT@FYP.com',
                                     loginpassword: 'test',
                                 }}
                             >
+
                                 <FormInput
                                     type="email"
                                     name="email"

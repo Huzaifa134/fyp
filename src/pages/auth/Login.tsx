@@ -82,7 +82,7 @@ const Login = () => {
     };
 
     const location = useLocation<LocationState>();
-    const redirectUrl = location.state && location.state.from ? location.state.from.pathname : '/';
+    const redirectUrl = location.state && location.state.from ? location.state.from.pathname : '/dashboard/analytics';
 
     return (
         <>
@@ -101,13 +101,13 @@ const Login = () => {
                 <VerticalForm<UserData>
                     onSubmit={onSubmit}
                     resolver={schemaResolver}
-                    defaultValues={{ email: 'minton@coderthemes.com', password: 'test' }}
+                    defaultValues={{ email: 'QSP_FYP_PROJECT@FYP.com', password: 'test' }}
                 >
                     <FormInput
                         type="email"
                         name="email"
                         label={t('Email address')}
-                        placeholder={t('hello@coderthemes.com')}
+                        placeholder={t('QSP_FYP_PROJECT@FYP.com')}
                         containerClass={'mb-2'}
                     />
                     <FormInput

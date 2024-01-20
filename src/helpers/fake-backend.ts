@@ -18,7 +18,7 @@ export function configureFakeBackend() {
     let users: UserData[] = [
         {
             id: 1,
-            email: 'minton@coderthemes.com',
+            email: 'QSP_FYP_PROJECT@FYP.com',
             username: 'test',
             password: 'test',
             firstName: 'Test',
