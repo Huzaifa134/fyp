@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="container-fluid">
                     <Row>
                         <Col md={6}>
-                            {currentYear} &copy; Minton theme by <Link to="#">Coderthemes</Link>
+                            {currentYear} &copy; QSP theme by RHATech
                         </Col>
 
                         <Col md={6}>
