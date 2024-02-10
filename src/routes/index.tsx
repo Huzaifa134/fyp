@@ -185,7 +185,7 @@ const dashboardRoutes: RoutesProps = {
             route: PrivateRoute,
         },
         {
-            path: '/tracking/employees_tracking',
+            path: '/dashboard/analytics',
             name: 'Employees Tracking',
             component: AnalyticsDashboard,
             route: PrivateRoute,
