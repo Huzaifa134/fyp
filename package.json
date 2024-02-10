@@ -12,6 +12,7 @@
     "@fullcalendar/react": "^5.10.1",
     "@fullcalendar/timegrid": "^5.10.1",
     "@hookform/resolvers": "^2.8.2",
+    "@supabase/supabase-js": "^2.39.3",
     "apexcharts": "^3.29.0",
     "axios": "^0.23.0",
     "axios-mock-adapter": "^1.20.0",
@@ -85,7 +86,7 @@
     ]
   },
   "devDependencies": {
-  "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/draftjs-to-html": "^0.8.1",
